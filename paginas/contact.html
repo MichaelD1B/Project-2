@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Promo - Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/svg/Symbool.svg" alt="TV Girl logo" width="100" height="100" />
+        </div>
+
+    <div class="hamburger-menu" onclick="toggleMenu()"> 
+        &#9776;
+    </div>
+
+    <nav class="nav-links">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/paginas/tourdata.html">Tour</a></li>
+            <li><a href="/paginas/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Neem Contact op</h2>
+            <form action="https://sd-lab.nl/INTERFACE1/index.php" method="POST">
+                <input type="text" name="first_name" placeholder="Voornaam" required>
+                <input type="text" name="last_name" placeholder="Achternaam" required>
+                <input type="tel" name="phone" placeholder="Telefoonnummer" required>
+                <textarea name="message" placeholder="Je vraag..." required></textarea>
+                <input type="submit" value="Verstuur">
+            </form>
+    </main>
+    <section class="social">
+        <h2>Volg TV Girl</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/tvgirl/">Instagram</a></li>
+            <li><a href="https://x.com/tvgirlz">Twitter</a></li>
+            <li><a href="https://www.facebook.com/tvgirlz/">Facebook</a></li>
+        </ul>
+    </section>
+</body>
+</html>
